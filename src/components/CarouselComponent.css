@@ -1,0 +1,78 @@
+/* Apply blur effect to images */
+.blur-image {
+    filter: blur(2px); /* Adjust the blur intensity */
+    -webkit-filter: blur(2px);
+}
+
+/* Center the text and button in the middle of the carousel */
+.centered-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensures text is readable against the blurred background */
+    width: 100%; /* Ensure the caption spans the full width */
+    padding: 0 15px; /* Add some padding to prevent text from touching the edges */
+    z-index: 10; /* Ensure it is above other elements */
+}
+
+.centered-caption h3 {
+    font-size: 1.5rem; /* Adjust size as needed */
+    font-weight: bold;
+}
+
+.centered-caption p {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold;
+}
+
+.centered-caption button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .centered-caption h3 {
+        font-size: 1.25rem; /* Smaller size for mobile */
+    }
+    
+    .centered-caption p {
+        font-size: 3rem; /* Smaller size for mobile */
+    }
+    
+    .centered-caption button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .centered-caption h3 {
+        font-size: 1.25rem; /* Smaller size for smaller screens */
+    }
+    
+    .centered-caption p {
+        font-size: 3rem; /* Smaller size for smaller screens */
+    }
+    
+    .centered-caption button {
+        padding: 8px 16px;
+        font-size: 0.875rem;
+    }
+}
+
+/* Additional styles to ensure the button is always visible */
+.carousel-item {
+    position: relative;
+    height: 70vh; /* Ensure full height on mobile */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Cover the entire container */
+    height: 100%; /* Ensure image covers full height */
+}

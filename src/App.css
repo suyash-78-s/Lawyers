@@ -1,0 +1,27 @@
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.text-gold {
+  color: #d4af37 !important;
+}
+
+.btn-outline-gold {
+  border-color: #d4af37;
+  color: #d4af37;
+}
+
+.btn-outline-gold:hover {
+  background-color: #d4af37;
+  color: white;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: white;
+}
+
+.btn-gold:hover {
+  background-color: #b89930;
+}

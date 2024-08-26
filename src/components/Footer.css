@@ -1,0 +1,31 @@
+footer {
+    background-color: #2a2a2a;
+}
+
+footer .text-light {
+    color: #b3a69e !important;
+}
+
+footer a {
+    color: #b3a69e !important;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #ffc107 !important;
+}
+
+footer .btn-floating {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+footer .btn-warning {
+    background-color: #b3a69e;
+    border-color: #b3a69e;
+}
+
+footer .btn-warning:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
