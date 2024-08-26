@@ -16,7 +16,7 @@ const App = () => {
             <Header/>
             <Routes>
                 <Route path="/" element={<HomePage/>} />
-                
+                <Route path='/index.html' element={<HomePage/>}/>
                 {/* Add more routes as needed */}
             </Routes>
             
